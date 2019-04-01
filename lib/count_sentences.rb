@@ -16,6 +16,6 @@ class String
 
   def count_sentences
     count = self.split((/[.!?]/)
-    noEmpty = count.reject
+    noEmpty = count.reject { |n| 
   end
 end
