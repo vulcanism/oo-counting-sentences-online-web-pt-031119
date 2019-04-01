@@ -19,4 +19,5 @@ class String
     noEmpty = sentences.reject { |s| s.empty?}
     noEmpty.count
   end
+  end
 end
